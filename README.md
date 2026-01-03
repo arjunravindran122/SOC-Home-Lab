@@ -29,6 +29,7 @@ Apache2, vsftpd, custom login page
 ## Setup Steps
 
 1.Configure Ubuntu (Target)
+
    Install Apache, FTP, and a custom vulnerable login page.
   
    Install and configure Splunk Universal Forwarder.
@@ -36,6 +37,7 @@ Apache2, vsftpd, custom login page
    Forward /var/log/auth.log and /var/log/apache2/* to the Splunk server.
    
 2.Configure Splunk Server (Windows)
+
    Install Splunk Enterprise.
   
    Configure inputs for receiving logs from forwarder.
@@ -43,6 +45,7 @@ Apache2, vsftpd, custom login page
    Create dashboards and alerts.
    
 3.Launch Attacks from Kali
+
    SSH brute-force using hydra
   
    Web login brute-force using hydra or wfuzz
