@@ -16,15 +16,15 @@ The setup includes three virtual machines:
 
 ## Technologies Used
 
-*Splunk Enterprise (Windows)
+Splunk Enterprise (Windows)
 
-*Splunk Universal Forwarder (Ubuntu)
+Splunk Universal Forwarder (Ubuntu)
 
-*Kali Linux (Attack simulation)
+Kali Linux (Attack simulation)
 
-*VirtualBox or any hypervisor
+VirtualBox or any hypervisor
 
-*Apache2, vsftpd, custom login page
+Apache2, vsftpd, custom login page
 
 ## Setup Steps
 
@@ -55,15 +55,15 @@ The setup includes three virtual machines:
 
 
 ## Alerts Configured
-*SSH Brute Force Detection
+SSH Brute Force Detection
 
-*Web Login Brute Force Detection
+Web Login Brute Force Detection
 
-*Web Directory Enumeration
+Web Directory Enumeration
 
-*FTP Anonymous Login Detection
+FTP Anonymous Login Detection
 
-*Windows Failed Login Attempts (EventCode 4625)
+Windows Failed Login Attempts (EventCode 4625)
 
 Each alert is created in Splunk using search queries that detect suspicious behavior and generate visual insights for security analysis.
 
@@ -78,11 +78,11 @@ Each alert is created in Splunk using search queries that detect suspicious beha
 
 ## Learning Outcomes
 
-*Gained hands-on experience with log forwarding and SIEM configuration.
+Gained hands-on experience with log forwarding and SIEM configuration.
 
-*Simulated real-world attacks to test detection capabilities.
+Simulated real-world attacks to test detection capabilities.
 
-*Built proactive alerts and dashboards in Splunk.
+Built proactive alerts and dashboards in Splunk.
 
 ## Future Improvements
 
